@@ -195,4 +195,105 @@ int main () {
 //     return 0;
 // }
 
+// int main(){
+//      int gun;
+//      printf("lutfen gun rakamini giriniz:");
+//      scanf("%d", &gun);
 
+//      switch(gun){
+//           case 1 :
+//           printf("pazartesi");
+//           break;
+
+//           case 2 :
+//           printf("sali");
+//           break;
+
+//           case 3:
+//           printf("carsamba");
+//           break;
+
+//           case 4:
+//           printf("persembe");
+//           break;
+
+//           case 5:
+//           printf("cuma");
+//           break;
+
+//           case 6:
+//           printf("cumarteesi");
+//           break;
+
+//           case 7 :
+//           printf("pazar");
+//           break;
+
+//      }
+//      return 0 ;
+// }
+
+// int main (){
+//      int mevsim;
+//      printf("lutfen mevsimin sayisini giriniz:");
+//      scanf("%d", &mevsim);
+     
+//      switch (mevsim){
+//           case 1 :
+//           printf("ilkbahar");
+//           break;
+
+//           case 2 :
+//           printf("yaz");
+//           break;
+
+//           case 3:
+//           printf("sonbahar");
+//           break;
+
+//           case 4:
+//           printf("kis");
+//           break;
+          
+//           default:
+//           printf("hatali tus");    
+//           break;
+//      }
+//      return 0;
+// }
+
+
+// int main (){
+//      int a = 0 ;
+//      while(a < 10){
+//           printf("merhaba dunya \n");
+//           a++;
+//      }
+//      return 0 ;
+// }
+
+// int main (){
+//      int a = 0 ;
+//      do{
+//           printf("merhaba dünya \n");
+//           a++;
+
+//      }while(a<10);
+// }
+
+// int main (){
+//      int a = 0;
+
+//      for (int a = 0 ;a<5 ; a++){
+//           printf("turkiye (for dongusu) \n");
+//      }
+//      while(a<2){
+//           printf("Turkiye (while icin)\n");
+//           a ++;
+//      }
+
+//      do {
+//           printf("turkiye (do icin)\n)");
+//      }while(a<1);
+
+// }
