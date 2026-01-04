@@ -297,3 +297,111 @@ int main () {
 //      }while(a<1);
 
 // }
+// ---------------------------yazılı için çrnekler --------------------
+// int main(){
+//      int a = 1;
+
+//      do{
+//           printf("merhaba \n");
+//           a ++;
+//      } while(a<3);
+// return 0;
+// }
+
+
+// int main (){
+//      int choice;
+//      int a = 5, b = 5 ;
+//      printf("lütfen yaqpmak istediginiz işlemi seçiniz \n");
+//      printf("toplama icin 1 e cikarma icin 2 ye carpma icin 3 bolme icin 4 \n");
+//      printf("lütfen seciminizi yapiniz:");
+//      scanf("%d", &choice);
+
+//      switch(choice){
+//           case 1:
+//           printf("toplama isleminin sonnucu:", a +b);
+//           break;
+//           case 2 :
+//           printf("cikarma isleminin sonucu:", a - b);
+//           break;
+//           case 3:
+//           printf("carpma isleminin sonucu:", a*b);
+//           break;
+//           case 4 :
+//           printf("bolme isleminin sonucu:" a / b);
+//           break:
+//      }
+     
+// }
+
+// int main(){
+//      int sayilar[8]= {5,6,8,12,14,0,47};
+//      printf("sayi = %d", sayilar[3]);
+// }
+
+// int main(){
+//      float fiyatlar[3] = {2.5,19.99,27.89};
+//      for(int i = 0; i < 3; i++){
+//      printf("%d. fiyat: %.2f\n", i + 1, fiyatlar[i]); }
+//      return 0;
+// }
+
+// int main(){
+//      double fiyatlar[5] = {2.532,19.1212};
+//      for(int i = 0; i < 5; i++){
+//      printf("%d. fiyat: %lf\n", i + 1, fiyatlar[i]); }
+//      return 0;
+// }
+
+// int main(){
+//      int sayilar[4];
+
+//      for(int i = 0; i<5; i++){
+//           printf("%d sayi giriniz:", i + 1);
+//           scanf("%d", &sayilar[i]);
+//      }
+
+//      for(int i = 0; i < 5; i++){
+//           printf("%d. sayi %d \n",i +1,  sayilar[i]);
+//      }
+// }
+
+// int main (){
+//      int mat [3][4]:   //3 satır 4 sütün 
+//      int mat [2][3] = {{1,2,3},{4,5,6}}:
+//      int mat [2][3] = {1,2,3,4,5,6}
+//      int mat [2][3] = {0}  // tüm matrisler 0 olur 0 lardan oluışan bir matris 
+
+
+
+//      return 0:
+// }
+
+// int main (){
+//      // int i,j
+//      int matrix [2][2] = {{5,8},{4,4}};
+//      for(int i = 0; i <2; i ++){
+//           for(int j = 0; j <2 ; j++){
+//                printf("%d \n", matrix[i][j]);
+//           }
+//           printf("\n");
+//      }
+// }
+
+int main (){
+     int matrix[3][4];
+     int i,j;
+     for(i = 0; i < 3; i++){
+          for(j = 0; j < 4; j++){
+               printf("%d satirin %d elemanini giriniz", i +1 , j+1);
+               scanf("%d", &matrix[i][j]);
+          }
+     }
+     printf("\n girilen matrix \n");
+     for (i = 0; i < 3; i++){
+          printf(" ");
+          for(j = 0; j < 4; j++){
+               printf("%d", matrix[i][j]);
+          }
+     }
+}
